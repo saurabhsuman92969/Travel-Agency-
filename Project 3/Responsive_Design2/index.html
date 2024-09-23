@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADVENTURE</title>
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+       <h1 class="logo">ADVENTURE</h1>
+       <ul class="nav-links">
+           <li class="active"><a href="#"></a>HOME</li>
+           <li><a href="#"></a>Tours</li>
+           <li><a href="#"></a>Explore</li>
+           <li><a href="#"></a>About</li>
+           <li class="ctn"><a href="#"></a>Contact</li>
+       </ul>
+      <img src="./image/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+          <h2>Explore The Colorful world</h2>
+          <div class="line"></div>
+          <h1>A WONDERFUL GIFT</h1>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./image/img13.jpg" alt="" width="80%" height="350px">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui,iure possiums libero expedita incidunt!</p>
+                     <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./image/img15.jpg" alt="" width="80%" height="350px">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui,iure possiums libero expedita incidunt!</p>
+                     <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, officia, illo repellat excepturi laboriosam aliquid suscipit quas consectetur explicabo atque libero porro qui at nulla!
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, tempore iure quam, dolor eum laborum deserunt necessitatibus iusto cupiditate aspernatur eius ab earum sunt, dicta recusandae sed aut. Vel, dicta!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./image/img11.jpg" alt="">
+                    <img src="./image/img5.jpg" alt="">
+                    <img src="./image/img7.jpg" alt="">
+                    <img src="./image/img16.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Muzaffarpur, 842001, Bihar, India | Phone:000-111-222 | Email: contact@gmail.com</p>
+        <p>Copyright @ Nancy 2021 September Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+        
+            
+    </script>
+
+</body>
+</html>
